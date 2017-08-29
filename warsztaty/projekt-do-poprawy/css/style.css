@@ -25,17 +25,17 @@ body {
 }
 
 #header img{
+    position: relative;
     width: 100%;
 }
 
-h1 {
-    position: relative;
+#header h1 {
+    position: absolute;
     color:white;
+    text-transform: uppercase;
     font-size: 55px;
     text-align: center;
     margin: 0 auto;
-    left: 0
-    
-        
-
+    left: 400px;
+    top: 500px;
 }
